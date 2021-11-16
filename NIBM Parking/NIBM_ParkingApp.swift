@@ -11,7 +11,9 @@ import SwiftUI
 struct NIBM_ParkingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                LoginView()
+            }
         }
     }
 }
