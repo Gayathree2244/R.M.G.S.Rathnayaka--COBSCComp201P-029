@@ -8,10 +8,46 @@
 import SwiftUI
 import FirebaseAuth
 
+
+class AppViewModel: ObservableObject {
+
+    
+    let auth = Auth.auth()
+    @Published var signedIn = false
+    var isSignedIn: Bool {
+        return auth.currentUser != nil
+    }
+   
+    func signIn(email:String, password:String) {
+        auth.signIn(withEmail: email, password: password) { [weak self] result, error in guard result != nil, error == nil else {
+            return
+        }
+            DispatchQueue.main.async {
+                //Success
+                self?.signedIn = true
+            }
+            
+        }
+    }
+    
+    func signUp(email:String, password:String) {
+        auth.createUser(withEmail: email, password:password){ [weak self] result, error in guard result != nil, error == nil else {
+            return
+        }
+            DispatchQueue.main.async {
+                //Success
+                self?.signedIn = true
+            }           }
+    }
+    
+}
+
 struct ContentView: View {
-    
-    
+    @EnvironmentObject var viewModel: AppViewModel
     var body: some View {
+        
+       
+
         TabView(selection: .constant(1)) {
             HomeView()
                 .tabItem {
@@ -20,9 +56,9 @@ struct ContentView: View {
                 }
             LoginView()
                 .tabItem {
-                    Image(systemName: "person")
+                    Image(systemName : "person")
                     Text("Sign In")
-                }
+                            }
             RegisterView()
                 .tabItem {
                     Image(systemName: "gear")
@@ -30,6 +66,17 @@ struct ContentView: View {
                 }
             
         }
+        NavigationView {
+            if viewModel.signedIn{
+                Text("You are signed in!")
+            }
+            else {
+                LoginView()
+                
+                }
+            }
+        .onAppear {
+            viewModel.signedIn = viewModel.isSignedIn        }
         
     }
 }
