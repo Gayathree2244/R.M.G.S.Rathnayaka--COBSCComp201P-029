@@ -16,13 +16,14 @@ struct RegisterView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Image("Login")
+                Image("Logo")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 150, height: 150)
                 VStack{
                     TextField("Email Address", text: $email)
-                        .padding()
+                        .disableAutocorrection(true)
+                        .autocapitalization(.none)                        .padding()
                         .background(Color(.secondarySystemBackground))
                     
                     SecureField("Password", text: $password)
@@ -35,6 +36,7 @@ struct RegisterView: View {
                         }
                        viewModel.signUp(email: email, password:password)
                     }, label:{
+                        
                         Text("Sign Up")
                             .foregroundColor(Color.white)
                             .frame(width: 200, height: 50)
@@ -44,6 +46,7 @@ struct RegisterView: View {
                     })
                 }
                 .padding()
+                
                 Spacer()
                 
             }
@@ -56,5 +59,6 @@ struct RegisterView: View {
 struct RegisterView_Previews: PreviewProvider {
     static var previews: some View {
         RegisterView()
+            .preferredColorScheme(.dark)
     }
 }

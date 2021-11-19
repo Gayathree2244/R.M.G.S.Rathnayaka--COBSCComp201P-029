@@ -14,14 +14,19 @@ struct LoginView: View {
     @EnvironmentObject var viewModel: AppViewModel
     
     var body: some View {
+        
         NavigationView {
+            
+        
             VStack {
-                Image("Login")
+                Image("Logo")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 150, height: 150)
                 VStack{
                     TextField("Email Address", text: $email)
+                        .disableAutocorrection(true)
+                        .autocapitalization(.none)
                         .padding()
                         .background(Color(.secondarySystemBackground))
                     
@@ -42,8 +47,12 @@ struct LoginView: View {
                             .background(Color.blue)
                         
                     })
+                    NavigationLink("Create Account", destination:RegisterView())
+                        .padding()
                 }
+                
                 .padding()
+                
                 Spacer()
                 
             }
@@ -52,8 +61,13 @@ struct LoginView: View {
     }
 }
 
+
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        Group {
+            LoginView()
+                .preferredColorScheme(.dark)
+            LoginView()
+        }
     }
 }
