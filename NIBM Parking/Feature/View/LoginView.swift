@@ -47,6 +47,11 @@ struct LoginView: View {
                             .background(Color.blue)
                         
                     })
+                    if (viewModel.signedIn == true) {
+                        HomeView()
+                        
+                    }
+                    
                     NavigationLink("Create Account", destination:RegisterView())
                         .padding()
                 }
@@ -57,6 +62,7 @@ struct LoginView: View {
                 
             }
             .navigationTitle("Sign In")
+            
         }
     }
 }

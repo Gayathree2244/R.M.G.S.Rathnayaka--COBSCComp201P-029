@@ -49,6 +49,8 @@ class AppViewModel: ObservableObject {
         self.signedIn = false
     }
     
+    
+    
 }
 
 struct ContentView: View {
@@ -75,11 +77,16 @@ struct ContentView: View {
                  }         */
         
         NavigationView {
+            HomeView()
+            
             if viewModel.signedIn{
-                VStack{
+                
+                /*VStack{
+                   
                     Text("You are Signed In")
                     
                     Button(action: {
+                        
                         viewModel.signOut()
                         
                     }, label: {
@@ -90,8 +97,9 @@ struct ContentView: View {
                             .padding()
                         
                     })
-                    
+                  
                 }
+                 */
                 
             }
            
@@ -118,3 +126,15 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+/*struct CircleTab : View {
+    var body : some View {
+        
+        HStack{
+            
+            Button(action:
+ 
+            )
+        }
+    }
+}
+*/
