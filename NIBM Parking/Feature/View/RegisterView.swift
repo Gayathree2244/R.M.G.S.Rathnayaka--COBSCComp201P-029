@@ -23,8 +23,9 @@ struct RegisterView: View {
                 VStack{
                     TextField("Email Address", text: $email)
                         .disableAutocorrection(true)
-                        .autocapitalization(.none)                        .padding()
+                        .autocapitalization(.none)
                         .background(Color(.secondarySystemBackground))
+                        .padding()
                     
                     SecureField("Password", text: $password)
                         .padding()
