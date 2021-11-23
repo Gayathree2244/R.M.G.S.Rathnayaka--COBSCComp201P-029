@@ -10,6 +10,7 @@ import SwiftUI
 struct RegisterView: View {
     @State var email = ""
     @State var password = ""
+    @State var vno = ""
     
     @EnvironmentObject var viewModel: AppViewModel
     
@@ -30,6 +31,12 @@ struct RegisterView: View {
                     SecureField("Password", text: $password)
                         .padding()
                         .background(Color(.secondarySystemBackground))
+                    
+                    TextField("Vehicle No", text: $vno)
+                        .disableAutocorrection(true)
+                        .autocapitalization(.none)
+                        .background(Color(.secondarySystemBackground))
+                        .padding()
                     
                     Button(action:  {
                         guard !email.isEmpty, !password.isEmpty else {

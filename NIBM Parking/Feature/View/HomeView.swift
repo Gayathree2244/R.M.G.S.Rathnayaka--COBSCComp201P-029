@@ -59,7 +59,7 @@ struct HomeView: View {
                                 
                             }*/
                                  
-                            NavigationLink("Book Now", destination:RegisterView())
+                            NavigationLink("Book Now", destination:LoginView())
                             
                                    
                                        .padding()
@@ -80,15 +80,16 @@ struct HomeView: View {
                     .cornerRadius(15)
                     .padding(.horizontal)
                     
-                    //Slots view
-                    Text("Parking Slot Categories")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .padding()
+                    
                     ScrollView(.horizontal, showsIndicators: false, content: {
                         
+                        HStack(spacing: 25){
+                            
+                        }
+                        .padding()
                     })
-                }
+            }
+                
                 .padding(.vertical)
                 
                 

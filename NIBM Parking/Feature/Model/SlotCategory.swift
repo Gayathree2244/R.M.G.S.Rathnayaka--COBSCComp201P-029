@@ -2,15 +2,15 @@
 //  SlotCategory.swift
 //  NIBM Parking
 //
-//  Created by Hasini Herath on 2021-11-20.
+//  Created by Hasini Herath on 2021-11-22.
 //
 
 import SwiftUI
 
 struct SlotCategory: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+        Text("VIP")
+            }
 }
 
 struct SlotCategory_Previews: PreviewProvider {
