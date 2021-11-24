@@ -6,11 +6,14 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct RegisterView: View {
+    @State var uName = ""
     @State var email = ""
     @State var password = ""
     @State var vno = ""
+    @State var nic = ""
     
     @EnvironmentObject var viewModel: AppViewModel
     
@@ -22,7 +25,26 @@ struct RegisterView: View {
                     .scaledToFit()
                     .frame(width: 150, height: 150)
                 VStack{
+                    
+                    TextField("User Name", text: $uName)
+                        .disableAutocorrection(true)
+                        .autocapitalization(.none)
+                        .background(Color(.secondarySystemBackground))
+                        .padding()
+                    
+                    TextField("NIC No", text: $nic)
+                        .disableAutocorrection(true)
+                        .autocapitalization(.none)
+                        .background(Color(.secondarySystemBackground))
+                        .padding()
+                    
                     TextField("Email Address", text: $email)
+                        .disableAutocorrection(true)
+                        .autocapitalization(.none)
+                        .background(Color(.secondarySystemBackground))
+                        .padding()
+                    
+                    TextField("Vehicle No", text: $vno)
                         .disableAutocorrection(true)
                         .autocapitalization(.none)
                         .background(Color(.secondarySystemBackground))
@@ -32,17 +54,16 @@ struct RegisterView: View {
                         .padding()
                         .background(Color(.secondarySystemBackground))
                     
-                    TextField("Vehicle No", text: $vno)
-                        .disableAutocorrection(true)
-                        .autocapitalization(.none)
-                        .background(Color(.secondarySystemBackground))
-                        .padding()
+                    
                     
                     Button(action:  {
+                        //AddInfo(UserName: String, Email:String, VehicleNo: //String, Password: String)
+                        
                         guard !email.isEmpty, !password.isEmpty else {
                             return
                         }
-                       viewModel.signUp(email: email, password:password)
+                       
+                        
                     }, label:{
                         
                         Text("Sign Up")
@@ -56,11 +77,19 @@ struct RegisterView: View {
                 .padding()
                 
                 Spacer()
+                Spacer()
                 
             }
             .navigationTitle("Create an Account")
         }
+        
+        
     }
+    func AddInfo(UserName: String, Email:String, VehicleNo: String, Password: String){
+        let db = Firestore.firestore()
+        db.collection("Users").document().setData(["User Name": UserName, "Email": Email, "Vehicle No": VehicleNo,"Password": Password])
+    }
+    
 }
 
 

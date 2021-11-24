@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 import FirebaseAuth
 
 
@@ -48,7 +49,6 @@ class AppViewModel: ObservableObject {
         try? auth.signOut()
         self.signedIn = false
     }
-    
     
     
 }
