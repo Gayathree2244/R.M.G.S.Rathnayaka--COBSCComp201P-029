@@ -13,7 +13,7 @@ struct HomeView: View {
         
     var body: some View {
         
-       
+        NavigationView{
             VStack{
                 HStack{
                     Spacer()
@@ -103,33 +103,8 @@ struct HomeView: View {
                     
                 })
             }
-            
-        
-        
-
-        //NavigationView {
-            //VStack{
-                
-               // NavigationLink("Sign In", destination:LoginView())
-                  //  .padding()
-                /*Button(action: {
-                    
-                    viewModel.signOut()
-                    
-                }, label: {
-                    Text("Sign Out")
-                        .frame(width: 200, height: 50)
-                        .background(Color.green)
-                        .foregroundColor(Color.blue)
-                        .padding()
-                    
-                })
-              */
-            //}
-            //.navigationTitle("Welcome to NIBM Parking!")
-            
-            
-       // }
+        }
+           
         
         
     }

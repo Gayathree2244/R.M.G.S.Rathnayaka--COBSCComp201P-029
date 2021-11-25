@@ -25,6 +25,8 @@ struct NIBM_ParkingApp: App {
 }
     class AppDelegate: NSObject, UIApplicationDelegate {
         func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+            
+            //setup Firebase
             FirebaseApp.configure()
             
             return true

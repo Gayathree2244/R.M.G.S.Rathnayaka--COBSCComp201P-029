@@ -23,6 +23,7 @@
 		B427A2B02748D40F00C31B85 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B427A2AF2748D40F00C31B85 /* BookingView.swift */; };
 		B427A2B22748D4C600C31B85 /* ParkingLaunch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B427A2B12748D4C600C31B85 /* ParkingLaunch Screen.storyboard */; };
 		B44D1E88273D378600B4F08A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B44D1E87273D378600B4F08A /* GoogleService-Info.plist */; };
+		B4696D8B274F6F6000212E21 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4696D8A274F6F6000212E21 /* ForgotPasswordView.swift */; };
 		DBFAC85466B0C486A0C8A55F /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00404ED5400F484CD14DC011 /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		B427A2AF2748D40F00C31B85 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		B427A2B12748D4C600C31B85 /* ParkingLaunch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "ParkingLaunch Screen.storyboard"; sourceTree = "<group>"; };
 		B44D1E87273D378600B4F08A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4696D8A274F6F6000212E21 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		CBA7301035AB1E6AF90E408C /* Pods_NIBM_Parking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Parking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -192,21 +194,14 @@
 				B403EF8E27437E0200FCB17A /* RegisterView.swift */,
 				B427A2AF2748D40F00C31B85 /* BookingView.swift */,
 				B40AD25F274CD3BF00255981 /* SlotView.swift */,
+				B4696D8A274F6F6000212E21 /* ForgotPasswordView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		B427A2B32748E2FE00C31B85 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		B44D1E89273D57AA00B4F08A /* Feature */ = {
 			isa = PBXGroup;
 			children = (
-				B427A2B32748E2FE00C31B85 /* Model */,
 				B403EF89274377D700FCB17A /* View */,
 			);
 			path = Feature;
@@ -454,6 +449,7 @@
 			files = (
 				B40AD260274CD3BF00255981 /* SlotView.swift in Sources */,
 				B427A2B02748D40F00C31B85 /* BookingView.swift in Sources */,
+				B4696D8B274F6F6000212E21 /* ForgotPasswordView.swift in Sources */,
 				B403EF8B274377F800FCB17A /* LoginView.swift in Sources */,
 				B403EF8F27437E0200FCB17A /* RegisterView.swift in Sources */,
 				B403EF8D27437DE600FCB17A /* HomeView.swift in Sources */,

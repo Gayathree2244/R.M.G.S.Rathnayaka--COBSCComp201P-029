@@ -15,7 +15,7 @@ struct LoginView: View {
     
     var body: some View {
         
-        NavigationView {
+       
             
         
             VStack {
@@ -54,7 +54,12 @@ struct LoginView: View {
                     
                     NavigationLink("Create Account", destination:RegisterView())
                         .padding()
-                }
+                    
+                    NavigationLink("Forgot Password", destination:ForgotPasswordView())
+                        .padding()
+                    
+                    .padding(.all)
+                                    }
                 
                 .padding()
                 
@@ -62,8 +67,9 @@ struct LoginView: View {
                 
             }
             .navigationTitle("Sign In")
-            
-        }
+            .padding()
+           
+        
     }
 }
 

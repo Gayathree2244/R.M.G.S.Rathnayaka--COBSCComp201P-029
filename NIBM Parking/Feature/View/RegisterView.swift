@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Firebase
+import FirebaseAuth
 
 struct RegisterView: View {
     @State var uName = ""
@@ -84,11 +85,15 @@ struct RegisterView: View {
         }
         
         
+        
     }
     func AddInfo(UserName: String, Email:String, VehicleNo: String, Password: String){
         let db = Firestore.firestore()
         db.collection("Users").document().setData(["User Name": UserName, "Email": Email, "Vehicle No": VehicleNo,"Password": Password])
     }
+    
+  
+    
     
 }
 
