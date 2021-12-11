@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097BAD172763C74100FD18A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097BAD162763C74100FD18A7 /* AppDelegate.swift */; };
+		097BAD192763C74100FD18A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097BAD182763C74100FD18A7 /* SceneDelegate.swift */; };
+		097BAD1B2763C74100FD18A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097BAD1A2763C74100FD18A7 /* ContentView.swift */; };
+		097BAD1D2763C76800FD18A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097BAD1C2763C76800FD18A7 /* Assets.xcassets */; };
+		097BAD202763C76900FD18A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097BAD1F2763C76900FD18A7 /* Preview Assets.xcassets */; };
+		097BAD232763C76900FD18A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097BAD212763C76900FD18A7 /* LaunchScreen.storyboard */; };
+		097BAD2E2763C76B00FD18A7 /* NIBM_ParkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097BAD2D2763C76B00FD18A7 /* NIBM_ParkingTests.swift */; };
+		097BAD392763C76C00FD18A7 /* NIBM_ParkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097BAD382763C76C00FD18A7 /* NIBM_ParkingUITests.swift */; };
+		097BAD702763CB7200FD18A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 097BAD6F2763CB7200FD18A7 /* GoogleService-Info.plist */; };
+		213829C90AB267C9B7EEC659 /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DC4289B299790B736F588C /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework */; };
+		6562F8EEC280ADF640F9A203 /* Pods_NIBM_ParkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567607F292EA7B32FFB4E18 /* Pods_NIBM_ParkingTests.framework */; };
+		8B48C6FD5E9207249FE9586B /* Pods_NIBM_Parking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A6D4A65F19E92BDF096700 /* Pods_NIBM_Parking.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		097BAD2A2763C76B00FD18A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 097BAD0B2763C74000FD18A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 097BAD122763C74100FD18A7;
+			remoteInfo = "NIBM-Parking";
+		};
+		097BAD352763C76B00FD18A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 097BAD0B2763C74000FD18A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 097BAD122763C74100FD18A7;
+			remoteInfo = "NIBM-Parking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097BAD132763C74100FD18A7 /* NIBM-Parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM-Parking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		097BAD162763C74100FD18A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		097BAD182763C74100FD18A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		097BAD1A2763C74100FD18A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		097BAD1C2763C76800FD18A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		097BAD1F2763C76900FD18A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		097BAD222763C76900FD18A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		097BAD242763C76900FD18A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		097BAD292763C76B00FD18A7 /* NIBM-ParkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NIBM-ParkingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		097BAD2D2763C76B00FD18A7 /* NIBM_ParkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_ParkingTests.swift; sourceTree = "<group>"; };
+		097BAD2F2763C76B00FD18A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		097BAD342763C76B00FD18A7 /* NIBM-ParkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NIBM-ParkingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		097BAD382763C76C00FD18A7 /* NIBM_ParkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_ParkingUITests.swift; sourceTree = "<group>"; };
+		097BAD3A2763C76C00FD18A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		097BAD6F2763CB7200FD18A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		099BB40FE465E00E03CE2B1D /* Pods-NIBM-Parking-NIBM-ParkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-Parking-NIBM-ParkingUITests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM-Parking-NIBM-ParkingUITests/Pods-NIBM-Parking-NIBM-ParkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		10F7CA89A46F1F0F04D9CBB1 /* Pods-NIBM-Parking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-Parking.debug.xcconfig"; path = "Target Support Files/Pods-NIBM-Parking/Pods-NIBM-Parking.debug.xcconfig"; sourceTree = "<group>"; };
+		1567607F292EA7B32FFB4E18 /* Pods_NIBM_ParkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_ParkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CF776B7B6D8741303BC9EE /* Pods-NIBM-ParkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-ParkingTests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM-ParkingTests/Pods-NIBM-ParkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0D5B8DC0B6088999CB38C41 /* Pods-NIBM-ParkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-ParkingTests.release.xcconfig"; path = "Target Support Files/Pods-NIBM-ParkingTests/Pods-NIBM-ParkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8A6D4A65F19E92BDF096700 /* Pods_NIBM_Parking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Parking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DC4289B299790B736F588C /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Parking_NIBM_ParkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE07A5AF3288D701AFFC53C5 /* Pods-NIBM-Parking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-Parking.release.xcconfig"; path = "Target Support Files/Pods-NIBM-Parking/Pods-NIBM-Parking.release.xcconfig"; sourceTree = "<group>"; };
+		F707CFD6FFBE0AF613AEA07E /* Pods-NIBM-Parking-NIBM-ParkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-Parking-NIBM-ParkingUITests.release.xcconfig"; path = "Target Support Files/Pods-NIBM-Parking-NIBM-ParkingUITests/Pods-NIBM-Parking-NIBM-ParkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		097BAD102763C74100FD18A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B48C6FD5E9207249FE9586B /* Pods_NIBM_Parking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097BAD262763C76B00FD18A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6562F8EEC280ADF640F9A203 /* Pods_NIBM_ParkingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097BAD312763C76B00FD18A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213829C90AB267C9B7EEC659 /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097BAD0A2763C74000FD18A7 = {
+			isa = PBXGroup;
+			children = (
+				097BAD152763C74100FD18A7 /* NIBM-Parking */,
+				097BAD2C2763C76B00FD18A7 /* NIBM-ParkingTests */,
+				097BAD372763C76C00FD18A7 /* NIBM-ParkingUITests */,
+				097BAD142763C74100FD18A7 /* Products */,
+				CCB4D21D573F76569F72D912 /* Pods */,
+				5766A5F2DDA4E1014692E7E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		097BAD142763C74100FD18A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				097BAD132763C74100FD18A7 /* NIBM-Parking.app */,
+				097BAD292763C76B00FD18A7 /* NIBM-ParkingTests.xctest */,
+				097BAD342763C76B00FD18A7 /* NIBM-ParkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		097BAD152763C74100FD18A7 /* NIBM-Parking */ = {
+			isa = PBXGroup;
+			children = (
+				097BAD6F2763CB7200FD18A7 /* GoogleService-Info.plist */,
+				097BAD162763C74100FD18A7 /* AppDelegate.swift */,
+				097BAD182763C74100FD18A7 /* SceneDelegate.swift */,
+				097BAD1A2763C74100FD18A7 /* ContentView.swift */,
+				097BAD1C2763C76800FD18A7 /* Assets.xcassets */,
+				097BAD212763C76900FD18A7 /* LaunchScreen.storyboard */,
+				097BAD242763C76900FD18A7 /* Info.plist */,
+				097BAD1E2763C76900FD18A7 /* Preview Content */,
+			);
+			path = "NIBM-Parking";
+			sourceTree = "<group>";
+		};
+		097BAD1E2763C76900FD18A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				097BAD1F2763C76900FD18A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		097BAD2C2763C76B00FD18A7 /* NIBM-ParkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				097BAD2D2763C76B00FD18A7 /* NIBM_ParkingTests.swift */,
+				097BAD2F2763C76B00FD18A7 /* Info.plist */,
+			);
+			path = "NIBM-ParkingTests";
+			sourceTree = "<group>";
+		};
+		097BAD372763C76C00FD18A7 /* NIBM-ParkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				097BAD382763C76C00FD18A7 /* NIBM_ParkingUITests.swift */,
+				097BAD3A2763C76C00FD18A7 /* Info.plist */,
+			);
+			path = "NIBM-ParkingUITests";
+			sourceTree = "<group>";
+		};
+		5766A5F2DDA4E1014692E7E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8A6D4A65F19E92BDF096700 /* Pods_NIBM_Parking.framework */,
+				C2DC4289B299790B736F588C /* Pods_NIBM_Parking_NIBM_ParkingUITests.framework */,
+				1567607F292EA7B32FFB4E18 /* Pods_NIBM_ParkingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCB4D21D573F76569F72D912 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10F7CA89A46F1F0F04D9CBB1 /* Pods-NIBM-Parking.debug.xcconfig */,
+				DE07A5AF3288D701AFFC53C5 /* Pods-NIBM-Parking.release.xcconfig */,
+				099BB40FE465E00E03CE2B1D /* Pods-NIBM-Parking-NIBM-ParkingUITests.debug.xcconfig */,
+				F707CFD6FFBE0AF613AEA07E /* Pods-NIBM-Parking-NIBM-ParkingUITests.release.xcconfig */,
+				26CF776B7B6D8741303BC9EE /* Pods-NIBM-ParkingTests.debug.xcconfig */,
+				A0D5B8DC0B6088999CB38C41 /* Pods-NIBM-ParkingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		097BAD122763C74100FD18A7 /* NIBM-Parking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097BAD3D2763C76C00FD18A7 /* Build configuration list for PBXNativeTarget "NIBM-Parking" */;
+			buildPhases = (
+				757ACD36CA7B94A1081D1DDB /* [CP] Check Pods Manifest.lock */,
+				097BAD0F2763C74100FD18A7 /* Sources */,
+				097BAD102763C74100FD18A7 /* Frameworks */,
+				097BAD112763C74100FD18A7 /* Resources */,
+				FC9C40E898C141ACB87BC5C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NIBM-Parking";
+			productName = "NIBM-Parking";
+			productReference = 097BAD132763C74100FD18A7 /* NIBM-Parking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		097BAD282763C76B00FD18A7 /* NIBM-ParkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097BAD402763C76C00FD18A7 /* Build configuration list for PBXNativeTarget "NIBM-ParkingTests" */;
+			buildPhases = (
+				7C8B4EDA1FD85FC7606E2323 /* [CP] Check Pods Manifest.lock */,
+				097BAD252763C76B00FD18A7 /* Sources */,
+				097BAD262763C76B00FD18A7 /* Frameworks */,
+				097BAD272763C76B00FD18A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				097BAD2B2763C76B00FD18A7 /* PBXTargetDependency */,
+			);
+			name = "NIBM-ParkingTests";
+			productName = "NIBM-ParkingTests";
+			productReference = 097BAD292763C76B00FD18A7 /* NIBM-ParkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		097BAD332763C76B00FD18A7 /* NIBM-ParkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097BAD432763C76C00FD18A7 /* Build configuration list for PBXNativeTarget "NIBM-ParkingUITests" */;
+			buildPhases = (
+				532762ADA0CDF3603CB03D22 /* [CP] Check Pods Manifest.lock */,
+				097BAD302763C76B00FD18A7 /* Sources */,
+				097BAD312763C76B00FD18A7 /* Frameworks */,
+				097BAD322763C76B00FD18A7 /* Resources */,
+				F365C0C843EC1D010BE70BC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				097BAD362763C76B00FD18A7 /* PBXTargetDependency */,
+			);
+			name = "NIBM-ParkingUITests";
+			productName = "NIBM-ParkingUITests";
+			productReference = 097BAD342763C76B00FD18A7 /* NIBM-ParkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		097BAD0B2763C74000FD18A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					097BAD122763C74100FD18A7 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					097BAD282763C76B00FD18A7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 097BAD122763C74100FD18A7;
+					};
+					097BAD332763C76B00FD18A7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 097BAD122763C74100FD18A7;
+					};
+				};
+			};
+			buildConfigurationList = 097BAD0E2763C74000FD18A7 /* Build configuration list for PBXProject "NIBM-Parking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 097BAD0A2763C74000FD18A7;
+			productRefGroup = 097BAD142763C74100FD18A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				097BAD122763C74100FD18A7 /* NIBM-Parking */,
+				097BAD282763C76B00FD18A7 /* NIBM-ParkingTests */,
+				097BAD332763C76B00FD18A7 /* NIBM-ParkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		097BAD112763C74100FD18A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097BAD232763C76900FD18A7 /* LaunchScreen.storyboard in Resources */,
+				097BAD702763CB7200FD18A7 /* GoogleService-Info.plist in Resources */,
+				097BAD202763C76900FD18A7 /* Preview Assets.xcassets in Resources */,
+				097BAD1D2763C76800FD18A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097BAD272763C76B00FD18A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097BAD322763C76B00FD18A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		532762ADA0CDF3603CB03D22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM-Parking-NIBM-ParkingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		757ACD36CA7B94A1081D1DDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM-Parking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C8B4EDA1FD85FC7606E2323 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM-ParkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F365C0C843EC1D010BE70BC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM-Parking-NIBM-ParkingUITests/Pods-NIBM-Parking-NIBM-ParkingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM-Parking-NIBM-ParkingUITests/Pods-NIBM-Parking-NIBM-ParkingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBM-Parking-NIBM-ParkingUITests/Pods-NIBM-Parking-NIBM-ParkingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9C40E898C141ACB87BC5C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM-Parking/Pods-NIBM-Parking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM-Parking/Pods-NIBM-Parking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBM-Parking/Pods-NIBM-Parking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		097BAD0F2763C74100FD18A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097BAD172763C74100FD18A7 /* AppDelegate.swift in Sources */,
+				097BAD192763C74100FD18A7 /* SceneDelegate.swift in Sources */,
+				097BAD1B2763C74100FD18A7 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097BAD252763C76B00FD18A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097BAD2E2763C76B00FD18A7 /* NIBM_ParkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097BAD302763C76B00FD18A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097BAD392763C76C00FD18A7 /* NIBM_ParkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		097BAD2B2763C76B00FD18A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 097BAD122763C74100FD18A7 /* NIBM-Parking */;
+			targetProxy = 097BAD2A2763C76B00FD18A7 /* PBXContainerItemProxy */;
+		};
+		097BAD362763C76B00FD18A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 097BAD122763C74100FD18A7 /* NIBM-Parking */;
+			targetProxy = 097BAD352763C76B00FD18A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		097BAD212763C76900FD18A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				097BAD222763C76900FD18A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		097BAD3B2763C76C00FD18A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		097BAD3C2763C76C00FD18A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		097BAD3E2763C76C00FD18A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F7CA89A46F1F0F04D9CBB1 /* Pods-NIBM-Parking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NIBM-Parking/Preview Content\"";
+				DEVELOPMENT_TEAM = 592PGF39AA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NIBM-Parking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.COBSCComp20.1P-029.NIBM-Parking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		097BAD3F2763C76C00FD18A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE07A5AF3288D701AFFC53C5 /* Pods-NIBM-Parking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NIBM-Parking/Preview Content\"";
+				DEVELOPMENT_TEAM = 592PGF39AA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NIBM-Parking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.COBSCComp20.1P-029.NIBM-Parking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		097BAD412763C76C00FD18A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CF776B7B6D8741303BC9EE /* Pods-NIBM-ParkingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2THM4JP49;
+				INFOPLIST_FILE = "NIBM-ParkingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lk.nibm.gayathree.NIBM-ParkingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIBM-Parking.app/NIBM-Parking";
+			};
+			name = Debug;
+		};
+		097BAD422763C76C00FD18A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D5B8DC0B6088999CB38C41 /* Pods-NIBM-ParkingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2THM4JP49;
+				INFOPLIST_FILE = "NIBM-ParkingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lk.nibm.gayathree.NIBM-ParkingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIBM-Parking.app/NIBM-Parking";
+			};
+			name = Release;
+		};
+		097BAD442763C76C00FD18A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099BB40FE465E00E03CE2B1D /* Pods-NIBM-Parking-NIBM-ParkingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2THM4JP49;
+				INFOPLIST_FILE = "NIBM-ParkingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lk.nibm.gayathree.NIBM-ParkingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NIBM-Parking";
+			};
+			name = Debug;
+		};
+		097BAD452763C76C00FD18A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F707CFD6FFBE0AF613AEA07E /* Pods-NIBM-Parking-NIBM-ParkingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2THM4JP49;
+				INFOPLIST_FILE = "NIBM-ParkingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lk.nibm.gayathree.NIBM-ParkingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NIBM-Parking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		097BAD0E2763C74000FD18A7 /* Build configuration list for PBXProject "NIBM-Parking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097BAD3B2763C76C00FD18A7 /* Debug */,
+				097BAD3C2763C76C00FD18A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		097BAD3D2763C76C00FD18A7 /* Build configuration list for PBXNativeTarget "NIBM-Parking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097BAD3E2763C76C00FD18A7 /* Debug */,
+				097BAD3F2763C76C00FD18A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		097BAD402763C76C00FD18A7 /* Build configuration list for PBXNativeTarget "NIBM-ParkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097BAD412763C76C00FD18A7 /* Debug */,
+				097BAD422763C76C00FD18A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		097BAD432763C76C00FD18A7 /* Build configuration list for PBXNativeTarget "NIBM-ParkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097BAD442763C76C00FD18A7 /* Debug */,
+				097BAD452763C76C00FD18A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 097BAD0B2763C74000FD18A7 /* Project object */;
+}
