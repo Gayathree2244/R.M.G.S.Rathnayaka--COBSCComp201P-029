@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092B8B37276478BC006695E2 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 092B8B36276478BC006695E2 /* CodeScanner */; };
+		092C452127644C1D0050FEA6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C452027644C1D0050FEA6 /* LoginView.swift */; };
+		092C452327644C420050FEA6 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C452227644C420050FEA6 /* BookingView.swift */; };
+		092C452827644C600050FEA6 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C452727644C600050FEA6 /* ForgotPasswordView.swift */; };
+		092C452D27644C6D0050FEA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C452C27644C6D0050FEA6 /* HomeView.swift */; };
+		092C453227644C800050FEA6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C453127644C800050FEA6 /* RegisterView.swift */; };
+		092C453727644C9E0050FEA6 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C453627644C9D0050FEA6 /* SettingView.swift */; };
+		092C453E2764513D0050FEA6 /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C453D2764513D0050FEA6 /* FirebaseController.swift */; };
+		092C4546276452FF0050FEA6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C4545276452FE0050FEA6 /* Utils.swift */; };
 		097BAD172763C74100FD18A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097BAD162763C74100FD18A7 /* AppDelegate.swift */; };
 		097BAD192763C74100FD18A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097BAD182763C74100FD18A7 /* SceneDelegate.swift */; };
 		097BAD1B2763C74100FD18A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097BAD1A2763C74100FD18A7 /* ContentView.swift */; };
@@ -39,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092C452027644C1D0050FEA6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		092C452227644C420050FEA6 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		092C452727644C600050FEA6 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		092C452C27644C6D0050FEA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		092C453127644C800050FEA6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		092C453627644C9D0050FEA6 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		092C453D2764513D0050FEA6 /* FirebaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		092C4545276452FE0050FEA6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		097BAD132763C74100FD18A7 /* NIBM-Parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM-Parking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		097BAD162763C74100FD18A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		097BAD182763C74100FD18A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092B8B37276478BC006695E2 /* CodeScanner in Frameworks */,
 				8B48C6FD5E9207249FE9586B /* Pods_NIBM_Parking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,6 +111,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		092C451C27644BA40050FEA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				092C452027644C1D0050FEA6 /* LoginView.swift */,
+				092C452227644C420050FEA6 /* BookingView.swift */,
+				092C452727644C600050FEA6 /* ForgotPasswordView.swift */,
+				092C452C27644C6D0050FEA6 /* HomeView.swift */,
+				092C453127644C800050FEA6 /* RegisterView.swift */,
+				092C453627644C9D0050FEA6 /* SettingView.swift */,
+			);
+			name = View;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		092C453B27644CF80050FEA6 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				092C453D2764513D0050FEA6 /* FirebaseController.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		092C453C27644D090050FEA6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				092C4545276452FE0050FEA6 /* Utils.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		097BAD0A2763C74000FD18A7 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +166,9 @@
 		097BAD152763C74100FD18A7 /* NIBM-Parking */ = {
 			isa = PBXGroup;
 			children = (
+				092C453C27644D090050FEA6 /* Util */,
+				092C453B27644CF80050FEA6 /* Firebase */,
+				092C451C27644BA40050FEA6 /* View */,
 				097BAD6F2763CB7200FD18A7 /* GoogleService-Info.plist */,
 				097BAD162763C74100FD18A7 /* AppDelegate.swift */,
 				097BAD182763C74100FD18A7 /* SceneDelegate.swift */,
@@ -197,6 +248,9 @@
 			dependencies = (
 			);
 			name = "NIBM-Parking";
+			packageProductDependencies = (
+				092B8B36276478BC006695E2 /* CodeScanner */,
+			);
 			productName = "NIBM-Parking";
 			productReference = 097BAD132763C74100FD18A7 /* NIBM-Parking.app */;
 			productType = "com.apple.product-type.application";
@@ -271,6 +325,9 @@
 				Base,
 			);
 			mainGroup = 097BAD0A2763C74000FD18A7;
+			packageReferences = (
+				092B8B35276478BC006695E2 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 097BAD142763C74100FD18A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -418,9 +475,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092C453E2764513D0050FEA6 /* FirebaseController.swift in Sources */,
 				097BAD172763C74100FD18A7 /* AppDelegate.swift in Sources */,
+				092C452D27644C6D0050FEA6 /* HomeView.swift in Sources */,
 				097BAD192763C74100FD18A7 /* SceneDelegate.swift in Sources */,
+				092C453727644C9E0050FEA6 /* SettingView.swift in Sources */,
+				092C452127644C1D0050FEA6 /* LoginView.swift in Sources */,
 				097BAD1B2763C74100FD18A7 /* ContentView.swift in Sources */,
+				092C4546276452FF0050FEA6 /* Utils.swift in Sources */,
+				092C453227644C800050FEA6 /* RegisterView.swift in Sources */,
+				092C452827644C600050FEA6 /* ForgotPasswordView.swift in Sources */,
+				092C452327644C420050FEA6 /* BookingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,6 +822,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		092B8B35276478BC006695E2 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		092B8B36276478BC006695E2 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 092B8B35276478BC006695E2 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 097BAD0B2763C74000FD18A7 /* Project object */;
 }
