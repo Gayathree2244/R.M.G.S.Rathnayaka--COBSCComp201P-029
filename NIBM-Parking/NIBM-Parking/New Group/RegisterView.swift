@@ -17,6 +17,7 @@ struct RegisterView: View {
     @State private var alert: AlertMaker?;
     
     var controller = FirebaseController();
+    var validator = Validator();
     var viewChanger = ViewChanger();
     
     func getUser(){
@@ -95,9 +96,19 @@ struct RegisterView: View {
                                 if(email.isEmpty){
                                     alert = AlertMaker(msg: "Invalid Email");
                                     return;
+                                }else{
+                                    if(!validator.checkEmail(email)){
+                                        alert = AlertMaker(msg: "Email Format Invalid");
+                                        return;
+                                    }
                                 }
+                                
                                 if(password.isEmpty){
                                     alert = AlertMaker(msg: "Please Enter Password");
+                                    return;
+                                }
+                                if(!validator.checkPassword(password)){
+                                    alert = AlertMaker(msg: "Password at least 8 characters");
                                     return;
                                 }
                                 if(fname.isEmpty || lname.isEmpty){

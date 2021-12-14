@@ -13,6 +13,7 @@ struct ForgotPasswordView: View {
     
     var controller = FirebaseController();
     var viewChanger = ViewChanger();
+    var validator = Validator();
     
     
     var body: some View {
@@ -26,6 +27,15 @@ struct ForgotPasswordView: View {
                 
                 VStack{
                       Button(action:{
+                        if(email.isEmpty){
+                            alert = AlertMaker(msg: "Invalid Email");
+                            return;
+                        }else{
+                            if(!validator.checkEmail(email)){
+                                alert = AlertMaker(msg: "Email Format Invalid");
+                                return;
+                            }
+                        }
                         controller.forgotPassword(mail: email) {(success) in
                             if(success){
                                 alert = AlertMaker(msg: "Success");

@@ -50,3 +50,19 @@ extension Array{
         return (left :Array(lSplit),right:Array(rSplit))
     }
 }
+
+class Validator{
+    func checkEmail(_ email: String) -> Bool {
+        let mail = NSPredicate(format:"SELF MATCHES %@", "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}")
+        return mail.evaluate(with: email)
+    }
+    
+    
+    func checkPassword(_ password: String) -> Bool {
+        if  8 > password.count {
+            return false
+        } else {
+            return true;
+        }
+    }
+}
