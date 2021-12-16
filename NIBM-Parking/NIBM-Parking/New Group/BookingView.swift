@@ -14,6 +14,7 @@ struct BookingView: View {
     @State private var alert: AlertMaker?;
     var controller = FirebaseController();
     var viewChanger = ViewChanger();
+    @ObservedObject var location = MyLocation();
     @State var qrScannner = false;
     @State var slots: [String] = [];
     @State private var slot_index = 0;
@@ -93,6 +94,17 @@ struct BookingView: View {
                     
                     Button(action:{
                         if(!btn_disable){
+                            
+                            if(location.statusCode==0){
+                                alert = AlertMaker(msg: "Please Enable Location");
+                                return;
+                            }else{
+                                if(!location.INRANGE){
+                                    alert = AlertMaker(msg: "Booking is available within 1km to parking area");
+                                    return;
+                                }
+                            }
+                            
                             btn_disable = true;
                             let id = slots[slot_index];                            
                             controller.reserveSlot(type: slotType,id: id, user: loggedUser) {(success) in

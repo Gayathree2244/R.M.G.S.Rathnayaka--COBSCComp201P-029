@@ -16,6 +16,7 @@
 		092C453727644C9E0050FEA6 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C453627644C9D0050FEA6 /* SettingView.swift */; };
 		092C453E2764513D0050FEA6 /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C453D2764513D0050FEA6 /* FirebaseController.swift */; };
 		092C4546276452FF0050FEA6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C4545276452FE0050FEA6 /* Utils.swift */; };
+		09326930276BD0BD0029A886 /* MyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932692F276BD0BD0029A886 /* MyLocation.swift */; };
 		097BAD172763C74100FD18A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097BAD162763C74100FD18A7 /* AppDelegate.swift */; };
 		097BAD192763C74100FD18A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097BAD182763C74100FD18A7 /* SceneDelegate.swift */; };
 		097BAD1B2763C74100FD18A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097BAD1A2763C74100FD18A7 /* ContentView.swift */; };
@@ -56,6 +57,7 @@
 		092C453627644C9D0050FEA6 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		092C453D2764513D0050FEA6 /* FirebaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
 		092C4545276452FE0050FEA6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		0932692F276BD0BD0029A886 /* MyLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocation.swift; sourceTree = "<group>"; };
 		097BAD132763C74100FD18A7 /* NIBM-Parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM-Parking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		097BAD162763C74100FD18A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		097BAD182763C74100FD18A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				092C4545276452FE0050FEA6 /* Utils.swift */,
+				0932692F276BD0BD0029A886 /* MyLocation.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 			files = (
 				092C453E2764513D0050FEA6 /* FirebaseController.swift in Sources */,
 				097BAD172763C74100FD18A7 /* AppDelegate.swift in Sources */,
+				09326930276BD0BD0029A886 /* MyLocation.swift in Sources */,
 				092C452D27644C6D0050FEA6 /* HomeView.swift in Sources */,
 				097BAD192763C74100FD18A7 /* SceneDelegate.swift in Sources */,
 				092C453727644C9E0050FEA6 /* SettingView.swift in Sources */,

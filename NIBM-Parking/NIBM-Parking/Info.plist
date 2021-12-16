@@ -58,5 +58,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Need to scan QR code</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Need to Update Locatiopn</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Need to Update Location</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Need to Update Location</string>
 </dict>
 </plist>
