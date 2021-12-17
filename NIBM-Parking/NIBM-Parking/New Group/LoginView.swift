@@ -76,8 +76,9 @@ struct LoginView: View {
                 }, label:{
                     Text("Forget Password").fontWeight(.semibold).padding()
                 }).accessibility(identifier: "forPassBtn")
+                
                 Button(action:{
-                    
+                    UIApplication.shared.open(URL(string: "https://www.nibm.lk")!)
                 }, label:{
                     Text("Terms & Conditions").fontWeight(.regular).padding()
                 })

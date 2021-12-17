@@ -20,8 +20,8 @@ struct Values {
     static let NORMAL = "normal"
     static let RESERVED = "RESERVED"
     static let AVAILABLE = "AVAILABLE"
-    static let LATI_NIBM: Double = 79.858734;
-    static let LONG_NIBM: Double = 7.189464;
+    static let LATI_NIBM: Double = 79.87669102758714;
+    static let LONG_NIBM: Double = 6.881555729567537;
     static let RANGE_KM: Double = 1000;
 }
 
